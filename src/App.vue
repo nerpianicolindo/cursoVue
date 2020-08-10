@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <img width="25%" src="./assets/logo.png">
-    <HelloWorld msg="Hello Vue in CodeSandbox!" />
+    <HelloWorld msg="Hello Vue in CodeSandbox!"/>
+    <mi-componente/>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import HelloWorld from "./components/HelloWorld.vue";
+import MiComponente from "@/components/MiComponente.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    HelloWorld,
+    MiComponente
   }
 };
 </script>
