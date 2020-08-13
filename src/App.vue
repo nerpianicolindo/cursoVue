@@ -1,9 +1,10 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png">
-    <HelloWorld msg="Hello Vue in CodeSandbox!"/>
-    <mi-componente/>
-    <Leccion4/>
+    <!-- <img width="25%" src="./assets/logo.png"> -->
+    <!-- <HelloWorld msg="Hello Vue in CodeSandbox!"/> -->
+    <!-- <mi-componente/> -->
+    <!-- <Leccion4/> -->
+    <todo-list/>
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import MiComponente from "@/components/MiComponente.vue";
 import Leccion4 from "@/components/Leccion4.vue";
+import TodoList from "@/components/TodoList.vue";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
     MiComponente,
-    Leccion4
+    Leccion4,
+    TodoList
   }
 };
 </script>
