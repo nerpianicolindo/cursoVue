@@ -1,5 +1,6 @@
 <template>
   <div class="task-list">
+  <router-link to="/error">Link a la página de error</router-link>
     <h1>{{tasks.length}} Tasks</h1>
     <form class="form" @submit.prevent="createTask">
       <label class="label" for="task">Nueva tarea:</label>
@@ -114,5 +115,4 @@ export default {
   text-decoration: line-through;
   color: lightgrey;
 }
-</style>
 </style>

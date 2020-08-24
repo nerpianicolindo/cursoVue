@@ -9,17 +9,11 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-import MiComponente from "@/components/MiComponente.vue";
-import Leccion4 from "@/components/Leccion4.vue";
 import TodoList from "@/components/TodoList.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
-    MiComponente,
-    Leccion4,
     TodoList
   }
 };
